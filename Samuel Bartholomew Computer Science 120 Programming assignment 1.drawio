@@ -1,9 +1,119 @@
-<mxfile host="app.diagrams.net" modified="2023-09-02T01:28:51.249Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/115.0" version="21.7.0" etag="vM63c4bRU8OrxKmpnifo" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-02T01:47:04.287Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/115.0" etag="b_pxXeNVNES9zeawgg16" version="21.7.0" type="github">
   <diagram name="Page-1" id="SqMSpwmVnf8gJvgtyzii">
-    <mxGraphModel>
+    <mxGraphModel dx="837" dy="494" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Dvp-ieGyB0TYMTcProRs-1" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="Dvp-ieGyB0TYMTcProRs-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dvp-ieGyB0TYMTcProRs-2" value="Start" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="160" y="80" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Dvp-ieGyB0TYMTcProRs-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Dvp-ieGyB0TYMTcProRs-4" target="Dvp-ieGyB0TYMTcProRs-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dvp-ieGyB0TYMTcProRs-4" value="&lt;div&gt;Display text asking&amp;nbsp;&lt;/div&gt;&lt;div&gt;“Will you be converting to [0] Cups to Ounces or [1] Ounces to Cups”&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="45.5" y="168" width="349" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Dvp-ieGyB0TYMTcProRs-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Dvp-ieGyB0TYMTcProRs-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dvp-ieGyB0TYMTcProRs-6" value="&lt;div&gt;Take input from user&lt;/div&gt;&lt;div&gt;(whichDir)&lt;br&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="140" y="290" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Dvp-ieGyB0TYMTcProRs-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" target="Dvp-ieGyB0TYMTcProRs-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="314" y="352.5" as="targetPoint" />
+            <mxPoint x="288" y="427.5" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dvp-ieGyB0TYMTcProRs-14" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="248" y="381" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Dvp-ieGyB0TYMTcProRs-15" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="146" y="458" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Dvp-ieGyB0TYMTcProRs-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Dvp-ieGyB0TYMTcProRs-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="353" y="642" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dvp-ieGyB0TYMTcProRs-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Dvp-ieGyB0TYMTcProRs-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="70" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dvp-ieGyB0TYMTcProRs-18" value="If whichDir is 0" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="150" y="508" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Dvp-ieGyB0TYMTcProRs-55" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.539;entryY=0.013;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="Dvp-ieGyB0TYMTcProRs-24" target="Dvp-ieGyB0TYMTcProRs-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dvp-ieGyB0TYMTcProRs-24" value="Apply weightAm = weightAm / 8" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="290" y="850" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Dvp-ieGyB0TYMTcProRs-44" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="Dvp-ieGyB0TYMTcProRs-43" target="Dvp-ieGyB0TYMTcProRs-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dvp-ieGyB0TYMTcProRs-43" value="Is whichDir 0 or 1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="150" y="393" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Dvp-ieGyB0TYMTcProRs-45" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="110" y="558" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Dvp-ieGyB0TYMTcProRs-46" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="276" y="562" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Dvp-ieGyB0TYMTcProRs-49" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="Dvp-ieGyB0TYMTcProRs-47" target="Dvp-ieGyB0TYMTcProRs-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dvp-ieGyB0TYMTcProRs-47" value="&lt;div&gt;Display text saying&amp;nbsp;&lt;/div&gt;&lt;div&gt;“How many cups would you like to convert into ounces&quot;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-27.5" y="644" width="205" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Dvp-ieGyB0TYMTcProRs-58" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="Dvp-ieGyB0TYMTcProRs-48" target="Dvp-ieGyB0TYMTcProRs-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dvp-ieGyB0TYMTcProRs-48" value="&lt;div&gt;Take input from user&lt;/div&gt;&lt;div&gt;(weightAm)&lt;br&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="-5" y="752" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Dvp-ieGyB0TYMTcProRs-52" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="Dvp-ieGyB0TYMTcProRs-50" target="Dvp-ieGyB0TYMTcProRs-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dvp-ieGyB0TYMTcProRs-50" value="&lt;div&gt;Display text saying&amp;nbsp;&lt;/div&gt;&lt;div&gt;“How many ounces would you like to convert into cups&quot;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="247.5" y="644" width="205" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Dvp-ieGyB0TYMTcProRs-53" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="Dvp-ieGyB0TYMTcProRs-51" target="Dvp-ieGyB0TYMTcProRs-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dvp-ieGyB0TYMTcProRs-51" value="&lt;div&gt;Take input from user&lt;/div&gt;&lt;div&gt;(weightAm)&lt;br&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="270" y="752" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Dvp-ieGyB0TYMTcProRs-63" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="Dvp-ieGyB0TYMTcProRs-54" target="Dvp-ieGyB0TYMTcProRs-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dvp-ieGyB0TYMTcProRs-54" value="&lt;div&gt;Display text saying&amp;nbsp;&lt;/div&gt;&lt;div&gt;“You have ” + weightAm + “ cups from your of ounces.&quot;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="240" y="940" width="205" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Dvp-ieGyB0TYMTcProRs-59" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="Dvp-ieGyB0TYMTcProRs-56" target="Dvp-ieGyB0TYMTcProRs-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dvp-ieGyB0TYMTcProRs-56" value="Apply weightAm = weightAm * 8" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="15" y="850" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Dvp-ieGyB0TYMTcProRs-61" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="Dvp-ieGyB0TYMTcProRs-57" target="Dvp-ieGyB0TYMTcProRs-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dvp-ieGyB0TYMTcProRs-57" value="&lt;div&gt;Display text saying&amp;nbsp;&lt;/div&gt;&lt;div&gt;&quot;You have “ + weightAm + “ ounces from your cups&quot;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-27.5" y="942" width="205" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Dvp-ieGyB0TYMTcProRs-60" value="End/Stop" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="6" y="1054" width="120" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
