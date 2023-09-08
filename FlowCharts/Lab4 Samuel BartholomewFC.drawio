@@ -1,0 +1,99 @@
+<mxfile host="app.diagrams.net" modified="2023-09-08T15:40:47.452Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/115.0" etag="cW3ExtsTahH7RfgSC6Rk" version="21.7.2" type="github">
+  <diagram name="Page-1" id="YrRk41mJAAnm55vIjzRC">
+    <mxGraphModel dx="1120" dy="444" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2Jp1xGJTcXy2EftuqeDB-1" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="2Jp1xGJTcXy2EftuqeDB-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2Jp1xGJTcXy2EftuqeDB-2" value="Start" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="160" y="80" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="2Jp1xGJTcXy2EftuqeDB-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2Jp1xGJTcXy2EftuqeDB-4" target="2Jp1xGJTcXy2EftuqeDB-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2Jp1xGJTcXy2EftuqeDB-4" value="Display the programs purpose" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="135" y="170" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="2Jp1xGJTcXy2EftuqeDB-41" value="End/Stop" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="480" y="1000" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="2Jp1xGJTcXy2EftuqeDB-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2Jp1xGJTcXy2EftuqeDB-42" target="2Jp1xGJTcXy2EftuqeDB-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2Jp1xGJTcXy2EftuqeDB-42" value="&lt;div&gt;Ask the user for their name&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="135" y="280" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="2Jp1xGJTcXy2EftuqeDB-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="2Jp1xGJTcXy2EftuqeDB-45" target="2Jp1xGJTcXy2EftuqeDB-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2Jp1xGJTcXy2EftuqeDB-45" value="Get response from user&lt;br&gt;(userName)" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="140" y="400" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2Jp1xGJTcXy2EftuqeDB-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2Jp1xGJTcXy2EftuqeDB-47" target="2Jp1xGJTcXy2EftuqeDB-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2Jp1xGJTcXy2EftuqeDB-47" value="&lt;div&gt;Ask the user for the amount of ounces&lt;br&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="135" y="500" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="2Jp1xGJTcXy2EftuqeDB-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2Jp1xGJTcXy2EftuqeDB-49" target="2Jp1xGJTcXy2EftuqeDB-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2Jp1xGJTcXy2EftuqeDB-49" value="&lt;div&gt;Get response from user&lt;/div&gt;&lt;div&gt;(ounceAmount) store as float&lt;br&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="140" y="618" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2Jp1xGJTcXy2EftuqeDB-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2Jp1xGJTcXy2EftuqeDB-51" target="2Jp1xGJTcXy2EftuqeDB-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2Jp1xGJTcXy2EftuqeDB-51" value="For Loop Start for 6 Iterations" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="160" y="710" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2Jp1xGJTcXy2EftuqeDB-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="2Jp1xGJTcXy2EftuqeDB-53" target="2Jp1xGJTcXy2EftuqeDB-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2Jp1xGJTcXy2EftuqeDB-53" value="&lt;div&gt;Iteration 0&lt;br&gt;&lt;/div&gt;&lt;div&gt;store ounceAmount / 8 into conToUs[0]&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="60" y="810" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2Jp1xGJTcXy2EftuqeDB-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2Jp1xGJTcXy2EftuqeDB-54" target="2Jp1xGJTcXy2EftuqeDB-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2Jp1xGJTcXy2EftuqeDB-54" value="&lt;div&gt;Iteration 1&lt;/div&gt;&lt;div&gt;store ounceAmount / 128 into conToUs[1]&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="60" y="890" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2Jp1xGJTcXy2EftuqeDB-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2Jp1xGJTcXy2EftuqeDB-55" target="2Jp1xGJTcXy2EftuqeDB-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2Jp1xGJTcXy2EftuqeDB-55" value="&lt;div&gt;Iteration 4&lt;br&gt;&lt;/div&gt;&lt;div&gt;store ounceAmount / 33.814 into conToMetric[0]&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="60" y="1130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2Jp1xGJTcXy2EftuqeDB-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2Jp1xGJTcXy2EftuqeDB-56" target="2Jp1xGJTcXy2EftuqeDB-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2Jp1xGJTcXy2EftuqeDB-56" value="&lt;div&gt;Iteration 2&lt;br&gt;&lt;/div&gt;&lt;div&gt;store ounceAmount / 16 into conToUs[2]&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="60" y="970" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2Jp1xGJTcXy2EftuqeDB-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2Jp1xGJTcXy2EftuqeDB-57" target="2Jp1xGJTcXy2EftuqeDB-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2Jp1xGJTcXy2EftuqeDB-57" value="&lt;div&gt;Iteration 3&lt;br&gt;&lt;/div&gt;&lt;div&gt;store ounceAmount / 32 into conToUs[3]&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="60" y="1050" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2Jp1xGJTcXy2EftuqeDB-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2Jp1xGJTcXy2EftuqeDB-58" target="2Jp1xGJTcXy2EftuqeDB-68">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2Jp1xGJTcXy2EftuqeDB-58" value="&lt;div&gt;Iteration 5&lt;br&gt;&lt;/div&gt;&lt;div&gt;store ounceAmount * 29.574 into conToMetric[1]&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="60" y="1210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2Jp1xGJTcXy2EftuqeDB-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2Jp1xGJTcXy2EftuqeDB-68" target="2Jp1xGJTcXy2EftuqeDB-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2Jp1xGJTcXy2EftuqeDB-68" value="Display the users name along with all of the calculations done, in a proper format." style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="260" y="980" width="170" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
