@@ -7,8 +7,10 @@
 
 #Declare Variables
 userAge = 0
+userNumber = 0
 userName = ""
 userColor = ""
+userColorLower = ""
 fort1 = "I am sensing... You should go and give your parents a hug!"
 fort2 = "I am sensing... You enjoy the cold weather!"
 fort3 = "I am sensing... That your left knee is hurting! You should get that checked out."
