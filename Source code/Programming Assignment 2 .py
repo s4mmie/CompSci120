@@ -28,7 +28,7 @@ userValue = "" #initilaze as a string but will be converted into a float after s
 userConvertChoice = ""
 userConvertTo = ""
 
-userCovertString = ""
+userConvertString = ""
 userConvertToString = ""
 
 convertValue = 0.0
@@ -40,8 +40,52 @@ tbsConversionRate = 14.787
 
 errorString = "\n" + "################################################################################################" + "\n" + "################################################################################################"
 
-stringFilter = "123456789"
+stringFilter = "1234567890"
 stringToList = []
+def calculateValue(userConvertTo, userConvertChoice, userValue):
+    if(userConvertTo[:1] == "0"):
+        userConvertToString = "Ounce(s)"
+        if(userValue == 0):
+            convertValue = 0 
+        else:
+            if(userConvertChoice[:1] == "0"):
+                convertValue = userValue #oz to oz
+                
+            elif(userConvertChoice[:1] == "1"):
+                convertValue = userValue / mLConversionRate #ml to oz
+                
+            elif(userConvertChoice[:1] == "2"):
+                convertValue = userValue / 2 #tbs to oz
+            
+    elif(userConvertTo[:1] == "1"):
+        userConvertToString = "Milliliter(s)"
+        
+        if(userValue == 0):
+            convertValue = 0 
+        else:
+            if(userConvertChoice[:1] == "0"):
+                convertValue = userValue * mLConversionRate #oz to ml
+                
+            elif(userConvertChoice[:1] == "1"):
+                convertValue = userValue #ml to ml
+                
+            elif(userConvertChoice[:1] == "2"):
+                convertValue = userValue * tbsConversionRate#tbs to ml
+    elif(userConvertTo[:1] == "2"):
+        userConvertToString = "Tablespoon(s)"
+        
+        if(userValue == 0):
+            convertValue = 0 
+        else:
+            if(userConvertChoice[:1] == "0"):
+                convertValue = userValue * 2 #oz to tbs
+                
+            elif(userConvertChoice[:1] == "1"):
+                convertValue = userValue / tbsConversionRate #ml to tbs
+                
+            elif(userConvertChoice[:1] == "2"):
+                convertValue = userValue #tbs to tbs
+    return convertValue, userConvertToString
 def takeUserValue():
     #Get value and test to make sure it as a float
     userValue = input ("\n\tWhat is the amount you would like to convert: ")
@@ -71,11 +115,11 @@ def convertUnit(userName):
         exit()
     #Get covert to choice
     print("\n\tThe choices are Ounces[0], Milliliters[1], or Tablespoons [2].\n\tYou should enter a 0, 1 or 2.")
-    userCoverTo = input("\t\tWhich unit would you like to conver to: ")
-    userCoverTo = userCoverTo.replace(" ", "")#This will remove spaces typed by the user
+    userConvertTo = input("\t\tWhich unit would you like to conver to: ")
+    userConvertTo = userConvertTo.replace(" ", "")#This will remove spaces typed by the user
     
     #Check covert to choice
-    if(userCoverTo[:1] == "0" or userCoverTo[:1] == "1" or userCoverTo[:1] == "2"):
+    if(userConvertTo[:1] == "0" or userConvertTo[:1] == "1" or userConvertTo[:1] == "2"):
         userValue = userValue #do nothing to continue
     else:
         print(errorString + "\n\nYou have entered a unit choice that was not.\nNext time please enter 0, 1, or 2.\nThe program will now end.")
@@ -89,48 +133,7 @@ def convertUnit(userName):
     elif(userConvertChoice[:1] == "2"):
         userConvertString = "Tablespoon(s)"
         
-    if(userCoverTo[:1] == "0"):
-        userConvertToString = "Ounce(s)"
-        if(userValue == 0):
-            convertValue = 0 
-        else:
-            if(userConvertChoice[:1] == "0"):
-                convertValue = userValue #oz to oz
-                
-            elif(userConvertChoice[:1] == "1"):
-                convertValue = userValue / mLConversionRate #ml to oz
-                
-            elif(userConvertChoice[:1] == "2"):
-                convertValue = userValue / 2 #tbs to oz
-            
-    elif(userCoverTo[:1] == "1"):
-        userConvertToString = "Milliliter(s)"
-        
-        if(userValue == 0):
-            convertValue = 0 
-        else:
-            if(userConvertChoice[:1] == "0"):
-                convertValue = userValue * mLConversionRate #oz to ml
-                
-            elif(userConvertChoice[:1] == "1"):
-                convertValue = userValue #ml to ml
-                
-            elif(userConvertChoice[:1] == "2"):
-                convertValue = userValue * tbsConversionRate#tbs to ml
-    elif(userCoverTo[:1] == "2"):
-        userConvertToString = "Tablespoon(s)"
-        
-        if(userValue == 0):
-            convertValue = 0 
-        else:
-            if(userConvertChoice[:1] == "0"):
-                convertValue = userValue * 2 #oz to tbs
-                
-            elif(userConvertChoice[:1] == "1"):
-                convertValue = userValue / tbsConversionRate #ml to tbs
-                
-            elif(userConvertChoice[:1] == "2"):
-                convertValue = userValue #tbs to tbs
+    convertValue, userConvertToString = calculateValue(userConvertTo, userConvertChoice, userValue)
     #dislpay to user what values they have now.
     print("\n\n\tHello " + userName + ", " + str(userValue) + " " + userConvertString + "is equal to " + str(convertValue) + " " + userConvertToString)
     return 0
@@ -146,3 +149,6 @@ for i in range(2) :
     convertUnit(userName)
     
 print("\n\nProgrammer: Samuel Bartholomew")
+
+
+
