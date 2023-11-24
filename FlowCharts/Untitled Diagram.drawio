@@ -1,9 +1,133 @@
-<mxfile host="app.diagrams.net" modified="2023-11-24T20:56:00.406Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 OPR/104.0.0.0" version="22.1.4" etag="bRdxlEf2edhI7SeRTyK3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-24T21:24:27.387Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 OPR/104.0.0.0" etag="MqT6IoMV5CwI2bJ1IBcJ" version="22.1.4" type="github">
   <diagram name="Page-1" id="X9YkFS0UQipS7ixekP1t">
-    <mxGraphModel>
+    <mxGraphModel dx="4133" dy="2278" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="PSQCY0DL3qGmr5zF4IYW-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PSQCY0DL3qGmr5zF4IYW-19" target="PSQCY0DL3qGmr5zF4IYW-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PSQCY0DL3qGmr5zF4IYW-19" value="Internet" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="-20" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PSQCY0DL3qGmr5zF4IYW-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PSQCY0DL3qGmr5zF4IYW-20" target="PSQCY0DL3qGmr5zF4IYW-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PSQCY0DL3qGmr5zF4IYW-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PSQCY0DL3qGmr5zF4IYW-20" target="PSQCY0DL3qGmr5zF4IYW-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PSQCY0DL3qGmr5zF4IYW-20" value="ISP&lt;br&gt;" style="image;html=1;image=img/lib/clip_art/networking/Router_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="620" y="140" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PSQCY0DL3qGmr5zF4IYW-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PSQCY0DL3qGmr5zF4IYW-22" target="PSQCY0DL3qGmr5zF4IYW-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PSQCY0DL3qGmr5zF4IYW-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PSQCY0DL3qGmr5zF4IYW-22" target="PSQCY0DL3qGmr5zF4IYW-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PSQCY0DL3qGmr5zF4IYW-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PSQCY0DL3qGmr5zF4IYW-22" target="PSQCY0DL3qGmr5zF4IYW-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PSQCY0DL3qGmr5zF4IYW-22" value="Firewall&lt;br&gt;" style="image;html=1;image=img/lib/clip_art/networking/Firewall_02_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="620" y="290" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PSQCY0DL3qGmr5zF4IYW-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="PSQCY0DL3qGmr5zF4IYW-24" target="PSQCY0DL3qGmr5zF4IYW-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PSQCY0DL3qGmr5zF4IYW-24" value="Inbound &amp;amp; Outbound Email server&lt;br&gt;" style="image;html=1;image=img/lib/clip_art/computers/Server_Rack_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="780" y="290" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PSQCY0DL3qGmr5zF4IYW-25" value="Company Website&lt;br&gt;" style="image;html=1;image=img/lib/clip_art/computers/Server_Rack_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="620" y="450" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PSQCY0DL3qGmr5zF4IYW-73" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-380" y="-10" width="720" height="830" as="geometry" />
+        </mxCell>
+        <mxCell id="PSQCY0DL3qGmr5zF4IYW-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="PSQCY0DL3qGmr5zF4IYW-73" source="PSQCY0DL3qGmr5zF4IYW-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="655" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PSQCY0DL3qGmr5zF4IYW-1" value="Internet" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="PSQCY0DL3qGmr5zF4IYW-73">
+          <mxGeometry x="600" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PSQCY0DL3qGmr5zF4IYW-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="PSQCY0DL3qGmr5zF4IYW-73" target="PSQCY0DL3qGmr5zF4IYW-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="655" y="220" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PSQCY0DL3qGmr5zF4IYW-4" value="Firewall&lt;br&gt;" style="image;html=1;image=img/lib/clip_art/networking/Firewall_02_128x128.png;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="PSQCY0DL3qGmr5zF4IYW-73">
+          <mxGeometry x="620" y="250" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PSQCY0DL3qGmr5zF4IYW-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="PSQCY0DL3qGmr5zF4IYW-73" source="PSQCY0DL3qGmr5zF4IYW-8" target="PSQCY0DL3qGmr5zF4IYW-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PSQCY0DL3qGmr5zF4IYW-8" value="Internal Switch" style="image;html=1;image=img/lib/clip_art/networking/Switch_128x128.png;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="PSQCY0DL3qGmr5zF4IYW-73">
+          <mxGeometry x="560" y="450" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PSQCY0DL3qGmr5zF4IYW-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="PSQCY0DL3qGmr5zF4IYW-73" source="PSQCY0DL3qGmr5zF4IYW-4" target="PSQCY0DL3qGmr5zF4IYW-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PSQCY0DL3qGmr5zF4IYW-10" value="10 Office Computers&lt;br&gt;" style="verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.pc;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="PSQCY0DL3qGmr5zF4IYW-73">
+          <mxGeometry x="480" y="610" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="PSQCY0DL3qGmr5zF4IYW-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="PSQCY0DL3qGmr5zF4IYW-73" source="PSQCY0DL3qGmr5zF4IYW-8" target="PSQCY0DL3qGmr5zF4IYW-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PSQCY0DL3qGmr5zF4IYW-11" value="Source Code" style="image;html=1;image=img/lib/clip_art/computers/Server_Rack_128x128.png;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="PSQCY0DL3qGmr5zF4IYW-73">
+          <mxGeometry x="190" y="750" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PSQCY0DL3qGmr5zF4IYW-15" value="Back Up server&lt;br&gt;(One way connection the&amp;nbsp;computers wont &lt;br&gt;be able to pull from the backup server)" style="image;html=1;image=img/lib/clip_art/computers/Server_128x128.png;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="PSQCY0DL3qGmr5zF4IYW-73">
+          <mxGeometry y="610" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PSQCY0DL3qGmr5zF4IYW-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="PSQCY0DL3qGmr5zF4IYW-73" source="PSQCY0DL3qGmr5zF4IYW-17" target="PSQCY0DL3qGmr5zF4IYW-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PSQCY0DL3qGmr5zF4IYW-17" value="ISP&lt;br&gt;" style="image;html=1;image=img/lib/clip_art/networking/Router_128x128.png;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="PSQCY0DL3qGmr5zF4IYW-73">
+          <mxGeometry x="620" y="120" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PSQCY0DL3qGmr5zF4IYW-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="PSQCY0DL3qGmr5zF4IYW-73" source="PSQCY0DL3qGmr5zF4IYW-4" target="PSQCY0DL3qGmr5zF4IYW-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PSQCY0DL3qGmr5zF4IYW-31" value="Work email&lt;br&gt;" style="image;html=1;image=img/lib/clip_art/computers/Server_Rack_128x128.png;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="PSQCY0DL3qGmr5zF4IYW-73">
+          <mxGeometry x="190" y="420" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PSQCY0DL3qGmr5zF4IYW-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="PSQCY0DL3qGmr5zF4IYW-73" source="PSQCY0DL3qGmr5zF4IYW-37" target="PSQCY0DL3qGmr5zF4IYW-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PSQCY0DL3qGmr5zF4IYW-37" value="Firewall&lt;br&gt;" style="image;html=1;image=img/lib/clip_art/networking/Firewall_02_128x128.png;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="PSQCY0DL3qGmr5zF4IYW-73">
+          <mxGeometry x="400" y="440" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PSQCY0DL3qGmr5zF4IYW-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="PSQCY0DL3qGmr5zF4IYW-73" source="PSQCY0DL3qGmr5zF4IYW-8" target="PSQCY0DL3qGmr5zF4IYW-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PSQCY0DL3qGmr5zF4IYW-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="PSQCY0DL3qGmr5zF4IYW-73" source="PSQCY0DL3qGmr5zF4IYW-47" target="PSQCY0DL3qGmr5zF4IYW-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PSQCY0DL3qGmr5zF4IYW-47" value="10 Remote workers" style="image;html=1;image=img/lib/clip_art/networking/Wireless_Router_128x128.png;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="PSQCY0DL3qGmr5zF4IYW-73">
+          <mxGeometry x="430" y="290" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PSQCY0DL3qGmr5zF4IYW-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="PSQCY0DL3qGmr5zF4IYW-73" source="PSQCY0DL3qGmr5zF4IYW-66" target="PSQCY0DL3qGmr5zF4IYW-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PSQCY0DL3qGmr5zF4IYW-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="PSQCY0DL3qGmr5zF4IYW-73" source="PSQCY0DL3qGmr5zF4IYW-66" target="PSQCY0DL3qGmr5zF4IYW-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PSQCY0DL3qGmr5zF4IYW-66" value="Data Base Server&lt;br&gt;" style="image;html=1;image=img/lib/clip_art/computers/Server_Tower_128x128.png;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="PSQCY0DL3qGmr5zF4IYW-73">
+          <mxGeometry x="190" y="610" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PSQCY0DL3qGmr5zF4IYW-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="PSQCY0DL3qGmr5zF4IYW-73" source="PSQCY0DL3qGmr5zF4IYW-10" target="PSQCY0DL3qGmr5zF4IYW-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PSQCY0DL3qGmr5zF4IYW-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="PSQCY0DL3qGmr5zF4IYW-73" source="PSQCY0DL3qGmr5zF4IYW-11" target="PSQCY0DL3qGmr5zF4IYW-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PSQCY0DL3qGmr5zF4IYW-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="PSQCY0DL3qGmr5zF4IYW-73" source="PSQCY0DL3qGmr5zF4IYW-15" target="PSQCY0DL3qGmr5zF4IYW-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PSQCY0DL3qGmr5zF4IYW-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="PSQCY0DL3qGmr5zF4IYW-73" source="PSQCY0DL3qGmr5zF4IYW-31" target="PSQCY0DL3qGmr5zF4IYW-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
