@@ -1,10 +1,7 @@
 import os
 ################################################################################
-#
-# CMSCI 120 E: Introduction to Computer Science I
 # Programmer: Samuel Bartholomew
 # Assignment Due Date: 12/14/2023
-# Activity: Final Exam Activity: Importing and Analyzing Text Data from External Files
 #
 # Problem:  Write a program (custom functions are optional; see
 #           below) that will evaluate and display each word in the
