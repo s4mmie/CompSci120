@@ -86,7 +86,7 @@
         <mxCell id="PSQCY0DL3qGmr5zF4IYW-227" value="ISP&lt;br&gt;&lt;div&gt;Metro Optical Cable&lt;/div&gt;&lt;div&gt;174.154.0.1&lt;br&gt;&lt;/div&gt;" style="image;html=1;image=img/lib/clip_art/networking/Router_128x128.png;" parent="1" vertex="1">
           <mxGeometry x="-1435.8333333333335" y="170.00313253012044" width="96.66666666666666" height="83.85542168674698" as="geometry" />
         </mxCell>
-        <mxCell id="PSQCY0DL3qGmr5zF4IYW-221" value="Firewall&lt;br&gt;" style="image;html=1;image=img/lib/clip_art/networking/Firewall_02_128x128.png;" parent="1" vertex="1">
+        <mxCell id="PSQCY0DL3qGmr5zF4IYW-221" value="Next Gen Fire Wall" style="image;html=1;image=img/lib/clip_art/networking/Firewall_02_128x128.png;" parent="1" vertex="1">
           <mxGeometry x="-1435.8333333333333" y="376.1481927710844" width="96.66666666666666" height="83.85542168674698" as="geometry" />
         </mxCell>
         <mxCell id="PSQCY0DL3qGmr5zF4IYW-206" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="PSQCY0DL3qGmr5zF4IYW-229" edge="1">
@@ -448,7 +448,7 @@
             <mxPoint x="330" y="409.9999999999998" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="PSQCY0DL3qGmr5zF4IYW-4" value="Firewall&lt;br&gt;" style="image;html=1;image=img/lib/clip_art/networking/Firewall_02_128x128.png;" parent="PSQCY0DL3qGmr5zF4IYW-73" vertex="1">
+        <mxCell id="PSQCY0DL3qGmr5zF4IYW-4" value="Next Gen Fire Wall" style="image;html=1;image=img/lib/clip_art/networking/Firewall_02_128x128.png;" parent="PSQCY0DL3qGmr5zF4IYW-73" vertex="1">
           <mxGeometry x="749.1666666666666" y="262.0481927710843" width="96.66666666666666" height="83.85542168674698" as="geometry" />
         </mxCell>
         <mxCell id="PSQCY0DL3qGmr5zF4IYW-191" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="PSQCY0DL3qGmr5zF4IYW-73" source="PSQCY0DL3qGmr5zF4IYW-8" target="PSQCY0DL3qGmr5zF4IYW-85" edge="1">
@@ -522,7 +522,7 @@
         <mxCell id="5QsFdZan3LT1QKr72UUt-3" value="20 Remote workers switch&lt;br&gt;802.11" style="image;html=1;image=img/lib/clip_art/networking/Wireless_Router_128x128.png;" parent="PSQCY0DL3qGmr5zF4IYW-73" vertex="1">
           <mxGeometry x="283.0033333333332" y="339.9959036144578" width="96.66666666666666" height="83.85542168674698" as="geometry" />
         </mxCell>
-        <mxCell id="5QsFdZan3LT1QKr72UUt-1" value="Reverse Proxy" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/web_server.svg;" parent="PSQCY0DL3qGmr5zF4IYW-73" vertex="1">
+        <mxCell id="5QsFdZan3LT1QKr72UUt-1" value="Reverse Proxy with Role Based Access &lt;br&gt;Encrypt + 2FA" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/web_server.svg;" parent="PSQCY0DL3qGmr5zF4IYW-73" vertex="1">
           <mxGeometry x="311.34000000000003" y="217.70999999999998" width="40" height="50" as="geometry" />
         </mxCell>
         <mxCell id="6VdXOuYt-lf-O6uNw073-2" value="" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=none;strokeColor=#FF0000;strokeWidth=6;" vertex="1" parent="PSQCY0DL3qGmr5zF4IYW-73">
@@ -557,9 +557,6 @@
         </mxCell>
         <mxCell id="6VdXOuYt-lf-O6uNw073-12" value="Network Segmentation by Machne" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="PSQCY0DL3qGmr5zF4IYW-73">
           <mxGeometry x="490.42" y="280" width="169.58" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="6VdXOuYt-lf-O6uNw073-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="6VdXOuYt-lf-O6uNw073-1" source="PSQCY0DL3qGmr5zF4IYW-66" target="6VdXOuYt-lf-O6uNw073-1">
-          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
