@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.17">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0" version="24.7.17">
   <diagram name="Page-1" id="X9YkFS0UQipS7ixekP1t">
-    <mxGraphModel dx="2384" dy="1790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" background="none" math="0" shadow="0">
+    <mxGraphModel dx="2394" dy="1366" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -79,9 +79,6 @@
           <mxGeometry x="0.2498" y="-2" relative="1" as="geometry">
             <mxPoint x="17" y="21" as="offset" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="6VdXOuYt-lf-O6uNw073-1" value="" style="swimlane;startSize=0;" parent="1" vertex="1">
-          <mxGeometry x="50" y="700" width="440" height="166.45000000000005" as="geometry" />
         </mxCell>
         <mxCell id="PSQCY0DL3qGmr5zF4IYW-73" value="Office 1" style="group;labelBackgroundColor=none;fillColor=#33FF33;rounded=0;" parent="1" vertex="1" connectable="0">
           <mxGeometry x="-390" y="-15.719999999999953" width="870" height="870" as="geometry" />
@@ -250,7 +247,7 @@
         <mxCell id="mS17XBaEQ12G2u1Cgeen-132" value="Microsoft Azure VM Server Segemtation" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=default;" parent="PSQCY0DL3qGmr5zF4IYW-73" vertex="1">
           <mxGeometry x="172.5" y="335.47999999999996" width="210" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="yL1Khm-CelzXPz8Ul4nK-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="PSQCY0DL3qGmr5zF4IYW-73" source="mS17XBaEQ12G2u1Cgeen-131" target="5QsFdZan3LT1QKr72UUt-1" edge="1">
+        <mxCell id="yL1Khm-CelzXPz8Ul4nK-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="PSQCY0DL3qGmr5zF4IYW-73" source="mS17XBaEQ12G2u1Cgeen-131" target="5QsFdZan3LT1QKr72UUt-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="mS17XBaEQ12G2u1Cgeen-131" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=5;strokeColor=#FF0F0F;" parent="PSQCY0DL3qGmr5zF4IYW-73" vertex="1">
@@ -259,7 +256,7 @@
         <mxCell id="mS17XBaEQ12G2u1Cgeen-135" value="Okta Identity Cloud will be used for Single Sign Ons and Multi-Factor Authentication." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=default;" parent="PSQCY0DL3qGmr5zF4IYW-73" vertex="1">
           <mxGeometry x="435.49" y="50.000000000000014" width="273.34" height="82.29" as="geometry" />
         </mxCell>
-        <mxCell id="yL1Khm-CelzXPz8Ul4nK-3" value="Microsoft Azure Defender will also be used on each running &lt;br&gt;operating system to secure the machines. This will provide&lt;br&gt;advanced threat protection as well as automated responses to&lt;br&gt;lock down the machines." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=default;" parent="PSQCY0DL3qGmr5zF4IYW-73" vertex="1">
+        <mxCell id="yL1Khm-CelzXPz8Ul4nK-3" value="Microsoft Azure Defender will also be used on each running &lt;br&gt;operating system to secure the machines. This will provide&lt;br&gt;advanced threat protection as well as automated responses to&lt;br&gt;lock down the machines." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=default;" vertex="1" parent="PSQCY0DL3qGmr5zF4IYW-73">
           <mxGeometry x="386.24999999999994" y="133.85999999999996" width="350" height="70" as="geometry" />
         </mxCell>
         <mxCell id="WejNlTVUgfLM3nm8U3tg-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="PSQCY0DL3qGmr5zF4IYW-73" source="WejNlTVUgfLM3nm8U3tg-2" target="PSQCY0DL3qGmr5zF4IYW-66">
