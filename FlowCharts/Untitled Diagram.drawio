@@ -463,7 +463,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="YjQkGGzVYFjrElsAgsRL" name="Page-2">
-    <mxGraphModel dx="2573" dy="743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2229" dy="595" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -476,66 +476,8 @@
         <mxCell id="yrjh7-1LUq3xMInoFqZh-9" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#FF0F0F;strokeWidth=5;direction=east;" vertex="1" parent="1">
           <mxGeometry x="750" y="1030" width="415" height="101.92" as="geometry" />
         </mxCell>
-        <mxCell id="KYajcFB9HV7KUk4DMyBB-1" value="DMZ&#xa;Office 1&#xa;" style="group;fillColor=none;strokeWidth=5;strokeColor=#FF0F0F;shadow=1;" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="1275.0000000000005" y="181.92" width="270" height="580" as="geometry" />
-        </mxCell>
-        <mxCell id="KYajcFB9HV7KUk4DMyBB-2" value="Internet" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="KYajcFB9HV7KUk4DMyBB-1">
-          <mxGeometry width="120" height="83.04869863524497" as="geometry" />
-        </mxCell>
-        <mxCell id="KYajcFB9HV7KUk4DMyBB-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="KYajcFB9HV7KUk4DMyBB-1" source="KYajcFB9HV7KUk4DMyBB-15" target="KYajcFB9HV7KUk4DMyBB-2">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="KYajcFB9HV7KUk4DMyBB-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="KYajcFB9HV7KUk4DMyBB-1" source="KYajcFB9HV7KUk4DMyBB-2" target="KYajcFB9HV7KUk4DMyBB-15">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="KYajcFB9HV7KUk4DMyBB-5" value="Inbound &amp;amp; Outbound Email server&lt;br&gt;" style="image;html=1;image=img/lib/clip_art/computers/Server_Rack_128x128.png;" vertex="1" parent="KYajcFB9HV7KUk4DMyBB-1">
-          <mxGeometry x="180" y="321.81370721157435" width="80" height="83.04869863524497" as="geometry" />
-        </mxCell>
-        <mxCell id="KYajcFB9HV7KUk4DMyBB-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="KYajcFB9HV7KUk4DMyBB-1" source="KYajcFB9HV7KUk4DMyBB-9" target="KYajcFB9HV7KUk4DMyBB-10">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="210" y="523.3798195242002" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="KYajcFB9HV7KUk4DMyBB-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="KYajcFB9HV7KUk4DMyBB-1" source="KYajcFB9HV7KUk4DMyBB-9">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="220" y="412.3598578069456" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="KYajcFB9HV7KUk4DMyBB-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="KYajcFB9HV7KUk4DMyBB-1" source="KYajcFB9HV7KUk4DMyBB-9" target="KYajcFB9HV7KUk4DMyBB-19">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="KYajcFB9HV7KUk4DMyBB-9" value="Forward Proxy" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/web_server.svg;" vertex="1" parent="KYajcFB9HV7KUk4DMyBB-1">
-          <mxGeometry x="140" y="422.9331874943032" width="40" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="KYajcFB9HV7KUk4DMyBB-10" value="Website files and SQL" style="image;html=1;image=img/lib/clip_art/computers/Server_Rack_128x128.png;" vertex="1" parent="KYajcFB9HV7KUk4DMyBB-1">
-          <mxGeometry x="180" y="470.0011044820643" width="80" height="83.04869863524497" as="geometry" />
-        </mxCell>
-        <mxCell id="KYajcFB9HV7KUk4DMyBB-11" value="Company Website&lt;br&gt;" style="image;html=1;image=img/lib/clip_art/computers/Server_Rack_128x128.png;" vertex="1" parent="KYajcFB9HV7KUk4DMyBB-1">
-          <mxGeometry x="20" y="470.0013013647551" width="80" height="83.04869863524497" as="geometry" />
-        </mxCell>
-        <mxCell id="KYajcFB9HV7KUk4DMyBB-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="KYajcFB9HV7KUk4DMyBB-1" source="KYajcFB9HV7KUk4DMyBB-16" target="KYajcFB9HV7KUk4DMyBB-11">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="KYajcFB9HV7KUk4DMyBB-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="KYajcFB9HV7KUk4DMyBB-1" source="KYajcFB9HV7KUk4DMyBB-11" target="KYajcFB9HV7KUk4DMyBB-9">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="KYajcFB9HV7KUk4DMyBB-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="KYajcFB9HV7KUk4DMyBB-1" source="KYajcFB9HV7KUk4DMyBB-15" target="KYajcFB9HV7KUk4DMyBB-18">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="KYajcFB9HV7KUk4DMyBB-15" value="ISP&lt;br&gt;Metro Optical Cable&lt;br&gt;" style="image;html=1;image=img/lib/clip_art/networking/Router_128x128.png;" vertex="1" parent="KYajcFB9HV7KUk4DMyBB-1">
-          <mxGeometry x="20" y="116.30758777272311" width="80" height="83.04869863524497" as="geometry" />
-        </mxCell>
-        <mxCell id="KYajcFB9HV7KUk4DMyBB-16" value="Next Gen Firewall&lt;br&gt;&lt;div&gt;Anti DDOS&lt;/div&gt;&lt;div&gt;User Behavior Analysis&lt;br&gt;&lt;/div&gt;" style="image;html=1;image=img/lib/clip_art/networking/Firewall_02_128x128.png;" vertex="1" parent="KYajcFB9HV7KUk4DMyBB-1">
-          <mxGeometry x="20" y="338.3503948426016" width="80" height="83.04869863524497" as="geometry" />
-        </mxCell>
-        <mxCell id="KYajcFB9HV7KUk4DMyBB-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="KYajcFB9HV7KUk4DMyBB-1" source="KYajcFB9HV7KUk4DMyBB-18" target="KYajcFB9HV7KUk4DMyBB-16">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="KYajcFB9HV7KUk4DMyBB-18" value="Transparent Proxy" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/internet_cloud.svg;" vertex="1" parent="KYajcFB9HV7KUk4DMyBB-1">
-          <mxGeometry x="35" y="243.18658280922435" width="50" height="31.5" as="geometry" />
-        </mxCell>
-        <mxCell id="KYajcFB9HV7KUk4DMyBB-19" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://go.netskope.com/rs/665-KFP-612/images/Netskope-Stacked-Logo-Full-Color-RGB.png;" vertex="1" parent="KYajcFB9HV7KUk4DMyBB-1">
-          <mxGeometry x="150" y="243.19" width="110" height="44.83" as="geometry" />
+        <mxCell id="KYajcFB9HV7KUk4DMyBB-1" value="DMZ&#xa;Office 1&#xa;" style="group;fillColor=none;strokeWidth=5;strokeColor=#FF0F0F;shadow=0;container=0;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="860" y="250" width="340" height="390" as="geometry" />
         </mxCell>
         <mxCell id="KYajcFB9HV7KUk4DMyBB-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KYajcFB9HV7KUk4DMyBB-29" target="KYajcFB9HV7KUk4DMyBB-27">
           <mxGeometry relative="1" as="geometry" />
@@ -553,9 +495,6 @@
         </mxCell>
         <mxCell id="KYajcFB9HV7KUk4DMyBB-27" value="Next Gen Fire Wall" style="image;html=1;image=img/lib/clip_art/networking/Firewall_02_128x128.png;" vertex="1" parent="1">
           <mxGeometry x="670.086666666667" y="462.1581927710844" width="96.66666666666666" height="83.85542168674698" as="geometry" />
-        </mxCell>
-        <mxCell id="KYajcFB9HV7KUk4DMyBB-29" value="CISCO IOS Switch" style="image;html=1;image=img/lib/clip_art/networking/Switch_128x128.png;" vertex="1" parent="1">
-          <mxGeometry x="670.086666666667" y="594.126746987952" width="96.66666666666666" height="83.85542168674698" as="geometry" />
         </mxCell>
         <mxCell id="KYajcFB9HV7KUk4DMyBB-30" value="169.254.0.2" style="verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.pc;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="139.26000000000045" y="1042.95" width="60" height="50.6" as="geometry" />
@@ -667,8 +606,13 @@
         <mxCell id="KYajcFB9HV7KUk4DMyBB-62" value="Front-End Development Team Segmentation VLAN" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=default;" vertex="1" parent="1">
           <mxGeometry x="1360.0000000000007" y="1151.92" width="283.34" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="KYajcFB9HV7KUk4DMyBB-63" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KYajcFB9HV7KUk4DMyBB-64" target="KYajcFB9HV7KUk4DMyBB-29">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="KYajcFB9HV7KUk4DMyBB-63" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="KYajcFB9HV7KUk4DMyBB-64" target="KYajcFB9HV7KUk4DMyBB-29">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="351" y="890" />
+              <mxPoint x="719" y="890" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="KYajcFB9HV7KUk4DMyBB-64" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#FF0F0F;strokeWidth=5;" vertex="1" parent="1">
           <mxGeometry x="119.25000000000051" y="1030.0000000000002" width="462.5" height="101.92" as="geometry" />
@@ -689,10 +633,10 @@
           <mxGeometry x="375.50000000000045" y="497.4000000000001" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="KYajcFB9HV7KUk4DMyBB-70" value="Okta Identity Cloud will be used for Single Sign Ons and Multi-Factor Authentication." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=default;" vertex="1" parent="1">
-          <mxGeometry x="879.9900000000005" y="323.8600000000001" width="273.34" height="82.29" as="geometry" />
+          <mxGeometry x="343.00000000000045" y="40.000000000000114" width="273.34" height="82.29" as="geometry" />
         </mxCell>
         <mxCell id="KYajcFB9HV7KUk4DMyBB-71" value="Microsoft Azure Defender will also be used on each running &lt;br&gt;operating system to secure the machines. This will provide&lt;br&gt;advanced threat protection as well as automated responses to&lt;br&gt;lock down the machines." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=default;" vertex="1" parent="1">
-          <mxGeometry x="850.0000000000005" y="427.40000000000003" width="350" height="70" as="geometry" />
+          <mxGeometry x="290.00000000000045" y="111.92000000000002" width="350" height="70" as="geometry" />
         </mxCell>
         <mxCell id="KYajcFB9HV7KUk4DMyBB-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="KYajcFB9HV7KUk4DMyBB-73" target="KYajcFB9HV7KUk4DMyBB-36">
           <mxGeometry relative="1" as="geometry" />
@@ -755,6 +699,63 @@
         </mxCell>
         <mxCell id="yrjh7-1LUq3xMInoFqZh-10" value="QA Team Segmentation VLAN" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=default;direction=east;" vertex="1" parent="1">
           <mxGeometry x="840.0000000000001" y="1151.9199999999998" width="283.34" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yrjh7-1LUq3xMInoFqZh-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KYajcFB9HV7KUk4DMyBB-5" target="KYajcFB9HV7KUk4DMyBB-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KYajcFB9HV7KUk4DMyBB-10" value="Website files and SQL" style="image;html=1;image=img/lib/clip_art/computers/Server_Rack_128x128.png;" vertex="1" parent="1">
+          <mxGeometry x="1060.0000000000005" y="414.3511044820643" width="80" height="83.04869863524497" as="geometry" />
+        </mxCell>
+        <mxCell id="KYajcFB9HV7KUk4DMyBB-11" value="Company Website&lt;br&gt;" style="image;html=1;image=img/lib/clip_art/computers/Server_Rack_128x128.png;" vertex="1" parent="1">
+          <mxGeometry x="1050.0000000000005" y="531.6813013647551" width="80" height="83.04869863524497" as="geometry" />
+        </mxCell>
+        <mxCell id="yrjh7-1LUq3xMInoFqZh-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="KYajcFB9HV7KUk4DMyBB-19" target="KYajcFB9HV7KUk4DMyBB-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KYajcFB9HV7KUk4DMyBB-19" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://go.netskope.com/rs/665-KFP-612/images/Netskope-Stacked-Logo-Full-Color-RGB.png;" vertex="1" parent="1">
+          <mxGeometry x="880" y="584.6" width="70" height="28.53" as="geometry" />
+        </mxCell>
+        <mxCell id="yrjh7-1LUq3xMInoFqZh-21" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="KYajcFB9HV7KUk4DMyBB-11" target="KYajcFB9HV7KUk4DMyBB-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="670" y="580" as="sourcePoint" />
+            <mxPoint x="720" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yrjh7-1LUq3xMInoFqZh-22" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="KYajcFB9HV7KUk4DMyBB-10" target="KYajcFB9HV7KUk4DMyBB-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1060" y="583" as="sourcePoint" />
+            <mxPoint x="932" y="534" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yrjh7-1LUq3xMInoFqZh-23" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="KYajcFB9HV7KUk4DMyBB-5" target="KYajcFB9HV7KUk4DMyBB-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1070" y="487" as="sourcePoint" />
+            <mxPoint x="937" y="517" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KYajcFB9HV7KUk4DMyBB-5" value="Inbound &amp;amp; Outbound Email server&lt;br&gt;" style="image;html=1;image=img/lib/clip_art/computers/Server_Rack_128x128.png;" vertex="1" parent="1">
+          <mxGeometry x="1060.0000000000005" y="291.6437072115744" width="80" height="83.04869863524497" as="geometry" />
+        </mxCell>
+        <mxCell id="KYajcFB9HV7KUk4DMyBB-9" value="Forward Proxy" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/web_server.svg;" vertex="1" parent="1">
+          <mxGeometry x="887.5000000000005" y="481.6831874943032" width="40" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="yrjh7-1LUq3xMInoFqZh-26" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="KYajcFB9HV7KUk4DMyBB-16" target="KYajcFB9HV7KUk4DMyBB-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="670" y="580" as="sourcePoint" />
+            <mxPoint x="720" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KYajcFB9HV7KUk4DMyBB-16" value="Next Gen Firewall&lt;br&gt;&lt;div&gt;Anti DDOS&lt;/div&gt;&lt;div&gt;User Behavior Analysis&lt;br&gt;&lt;/div&gt;" style="image;html=1;image=img/lib/clip_art/networking/Firewall_02_128x128.png;" vertex="1" parent="1">
+          <mxGeometry x="887.5000000000005" y="313.8603948426016" width="80" height="83.04869863524497" as="geometry" />
+        </mxCell>
+        <mxCell id="KYajcFB9HV7KUk4DMyBB-29" value="CISCO IOS Switch" style="image;html=1;image=img/lib/clip_art/networking/Switch_128x128.png;" vertex="1" parent="1">
+          <mxGeometry x="670.086666666667" y="594.126746987952" width="96.66666666666666" height="83.85542168674698" as="geometry" />
+        </mxCell>
+        <mxCell id="yrjh7-1LUq3xMInoFqZh-27" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="KYajcFB9HV7KUk4DMyBB-27" target="KYajcFB9HV7KUk4DMyBB-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="670" y="580" as="sourcePoint" />
+            <mxPoint x="850" y="440" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
