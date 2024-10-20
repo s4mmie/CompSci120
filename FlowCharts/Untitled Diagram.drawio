@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.8.0" pages="2">
   <diagram name="Page-1" id="X9YkFS0UQipS7ixekP1t">
-    <mxGraphModel dx="3668" dy="1792" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" background="none" math="0" shadow="0">
+    <mxGraphModel dx="5047" dy="2387" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -29,7 +29,7 @@
             <mxPoint x="220" y="412.3598578069456" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WejNlTVUgfLM3nm8U3tg-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="PSQCY0DL3qGmr5zF4IYW-169" source="PSQCY0DL3qGmr5zF4IYW-186" target="WejNlTVUgfLM3nm8U3tg-3">
+        <mxCell id="WejNlTVUgfLM3nm8U3tg-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" parent="PSQCY0DL3qGmr5zF4IYW-169" source="PSQCY0DL3qGmr5zF4IYW-186" target="WejNlTVUgfLM3nm8U3tg-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="PSQCY0DL3qGmr5zF4IYW-186" value="Forward Proxy" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/web_server.svg;" parent="PSQCY0DL3qGmr5zF4IYW-169" vertex="1">
@@ -62,7 +62,7 @@
         <mxCell id="6VdXOuYt-lf-O6uNw073-158" value="Transparent Proxy" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/internet_cloud.svg;" parent="PSQCY0DL3qGmr5zF4IYW-169" vertex="1">
           <mxGeometry x="35" y="243.18658280922435" width="50" height="31.5" as="geometry" />
         </mxCell>
-        <mxCell id="WejNlTVUgfLM3nm8U3tg-3" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://go.netskope.com/rs/665-KFP-612/images/Netskope-Stacked-Logo-Full-Color-RGB.png;" vertex="1" parent="PSQCY0DL3qGmr5zF4IYW-169">
+        <mxCell id="WejNlTVUgfLM3nm8U3tg-3" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://go.netskope.com/rs/665-KFP-612/images/Netskope-Stacked-Logo-Full-Color-RGB.png;" parent="PSQCY0DL3qGmr5zF4IYW-169" vertex="1">
           <mxGeometry x="150" y="243.19" width="110" height="44.83" as="geometry" />
         </mxCell>
         <mxCell id="PSQCY0DL3qGmr5zF4IYW-325" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" target="PSQCY0DL3qGmr5zF4IYW-195" edge="1">
@@ -135,7 +135,7 @@
         <mxCell id="PSQCY0DL3qGmr5zF4IYW-11" value="Source Code Repository&lt;br&gt;169.254.0.16" style="image;html=1;image=img/lib/clip_art/computers/Server_Rack_128x128.png;" parent="PSQCY0DL3qGmr5zF4IYW-73" vertex="1">
           <mxGeometry x="80.00333333333333" y="740.0045783132531" width="96.66666666666666" height="83.85542168674698" as="geometry" />
         </mxCell>
-        <mxCell id="WejNlTVUgfLM3nm8U3tg-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="PSQCY0DL3qGmr5zF4IYW-73" source="PSQCY0DL3qGmr5zF4IYW-15" target="WejNlTVUgfLM3nm8U3tg-1">
+        <mxCell id="WejNlTVUgfLM3nm8U3tg-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="PSQCY0DL3qGmr5zF4IYW-73" source="PSQCY0DL3qGmr5zF4IYW-15" target="WejNlTVUgfLM3nm8U3tg-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="PSQCY0DL3qGmr5zF4IYW-15" value="Back Up server" style="image;html=1;image=img/lib/clip_art/computers/Server_128x128.png;" parent="PSQCY0DL3qGmr5zF4IYW-73" vertex="1">
@@ -211,7 +211,7 @@
             <mxPoint x="128.3350000000005" y="713.55" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WejNlTVUgfLM3nm8U3tg-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="PSQCY0DL3qGmr5zF4IYW-73" source="6VdXOuYt-lf-O6uNw073-19" target="WejNlTVUgfLM3nm8U3tg-4">
+        <mxCell id="WejNlTVUgfLM3nm8U3tg-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="PSQCY0DL3qGmr5zF4IYW-73" source="6VdXOuYt-lf-O6uNw073-19" target="WejNlTVUgfLM3nm8U3tg-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="6VdXOuYt-lf-O6uNw073-19" value="File Access Logger File Version Tracker&lt;br&gt;Role Based Access Encrytptoin" style="image;html=1;image=img/lib/clip_art/networking/Firewall_02_128x128.png;" parent="PSQCY0DL3qGmr5zF4IYW-73" vertex="1">
@@ -259,22 +259,22 @@
         <mxCell id="yL1Khm-CelzXPz8Ul4nK-3" value="Microsoft Azure Defender will also be used on each running &lt;br&gt;operating system to secure the machines. This will provide&lt;br&gt;advanced threat protection as well as automated responses to&lt;br&gt;lock down the machines." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=default;" parent="PSQCY0DL3qGmr5zF4IYW-73" vertex="1">
           <mxGeometry x="386.24999999999994" y="133.85999999999996" width="350" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="WejNlTVUgfLM3nm8U3tg-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="PSQCY0DL3qGmr5zF4IYW-73" source="WejNlTVUgfLM3nm8U3tg-2" target="PSQCY0DL3qGmr5zF4IYW-66">
+        <mxCell id="WejNlTVUgfLM3nm8U3tg-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" parent="PSQCY0DL3qGmr5zF4IYW-73" source="WejNlTVUgfLM3nm8U3tg-2" target="PSQCY0DL3qGmr5zF4IYW-66" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WejNlTVUgfLM3nm8U3tg-2" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://e7.pngegg.com/pngimages/899/221/png-clipart-splunk-vertical-logo-tech-companies-thumbnail.png;" vertex="1" parent="PSQCY0DL3qGmr5zF4IYW-73">
+        <mxCell id="WejNlTVUgfLM3nm8U3tg-2" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://e7.pngegg.com/pngimages/899/221/png-clipart-splunk-vertical-logo-tech-companies-thumbnail.png;" parent="PSQCY0DL3qGmr5zF4IYW-73" vertex="1">
           <mxGeometry x="40.00000000000004" y="349.7599999999999" width="78" height="64.33" as="geometry" />
         </mxCell>
-        <mxCell id="WejNlTVUgfLM3nm8U3tg-1" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://images.g2crowd.com/uploads/product/image/large_detail/large_detail_61a947a153a77a6ab3cfbeea0c3ca5ef/thales-ciphertrust-data-security-platform.jpeg;" vertex="1" parent="PSQCY0DL3qGmr5zF4IYW-73">
+        <mxCell id="WejNlTVUgfLM3nm8U3tg-1" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://images.g2crowd.com/uploads/product/image/large_detail/large_detail_61a947a153a77a6ab3cfbeea0c3ca5ef/thales-ciphertrust-data-security-platform.jpeg;" parent="PSQCY0DL3qGmr5zF4IYW-73" vertex="1">
           <mxGeometry x="90" y="95.72" width="64" height="64" as="geometry" />
         </mxCell>
-        <mxCell id="WejNlTVUgfLM3nm8U3tg-4" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://strykesecurity.com/wp-content/uploads/2023/06/Proofpoint_1080x1080.png;" vertex="1" parent="PSQCY0DL3qGmr5zF4IYW-73">
+        <mxCell id="WejNlTVUgfLM3nm8U3tg-4" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://strykesecurity.com/wp-content/uploads/2023/06/Proofpoint_1080x1080.png;" parent="PSQCY0DL3qGmr5zF4IYW-73" vertex="1">
           <mxGeometry y="603.2499999999999" width="60" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="WejNlTVUgfLM3nm8U3tg-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="PSQCY0DL3qGmr5zF4IYW-73" source="WejNlTVUgfLM3nm8U3tg-5" target="PSQCY0DL3qGmr5zF4IYW-8">
+        <mxCell id="WejNlTVUgfLM3nm8U3tg-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" parent="PSQCY0DL3qGmr5zF4IYW-73" source="WejNlTVUgfLM3nm8U3tg-5" target="PSQCY0DL3qGmr5zF4IYW-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WejNlTVUgfLM3nm8U3tg-5" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn.prod.website-files.com/6640cd28f51f13175e577c05/664e007fb97281276484d675_110aeaaf-fe27-51ca-92fa-a7c426086de7.svg;" vertex="1" parent="PSQCY0DL3qGmr5zF4IYW-73">
+        <mxCell id="WejNlTVUgfLM3nm8U3tg-5" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn.prod.website-files.com/6640cd28f51f13175e577c05/664e007fb97281276484d675_110aeaaf-fe27-51ca-92fa-a7c426086de7.svg;" parent="PSQCY0DL3qGmr5zF4IYW-73" vertex="1">
           <mxGeometry x="435.49" y="528.13" width="51.75" height="51.75" as="geometry" />
         </mxCell>
         <mxCell id="mS17XBaEQ12G2u1Cgeen-11" value="DMZ&#xa;Office 2&#xa;" style="group;fillColor=#8FA2FF;strokeColor=#FF0F0F;strokeWidth=6;" parent="1" vertex="1" connectable="0">
@@ -463,7 +463,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="YjQkGGzVYFjrElsAgsRL" name="Page-2">
-    <mxGraphModel dx="2585" dy="1115" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1723" dy="743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
