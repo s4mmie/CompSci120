@@ -463,10 +463,16 @@
     </mxGraphModel>
   </diagram>
   <diagram id="YjQkGGzVYFjrElsAgsRL" name="Page-2">
-    <mxGraphModel dx="1723" dy="743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3148" dy="991" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="fk0fO3fRBtCrh4mwYveA-10" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=5;strokeColor=#FF0F0F;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="500" width="380.96" height="209.87" as="geometry" />
+        </mxCell>
+        <mxCell id="fk0fO3fRBtCrh4mwYveA-7" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=5;strokeColor=#FF0F0F;" vertex="1" parent="1">
+          <mxGeometry x="38.41" y="320.00000000000006" width="241.59" height="154.6" as="geometry" />
+        </mxCell>
         <mxCell id="yrjh7-1LUq3xMInoFqZh-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" parent="1" source="yrjh7-1LUq3xMInoFqZh-43" target="KYajcFB9HV7KUk4DMyBB-29" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -498,10 +504,10 @@
           <mxGeometry x="215.59000000000043" y="812.95" width="60" height="50.6" as="geometry" />
         </mxCell>
         <mxCell id="KYajcFB9HV7KUk4DMyBB-31" value="Source Code Repository&lt;br&gt;169.254.0.16" style="image;html=1;image=img/lib/clip_art/computers/Server_Rack_128x128.png;" parent="1" vertex="1">
-          <mxGeometry x="38.41333333333381" y="569.9945783132533" width="96.66666666666666" height="83.85542168674698" as="geometry" />
+          <mxGeometry x="-12.456666666666187" y="581.6845783132534" width="96.66666666666666" height="83.85542168674698" as="geometry" />
         </mxCell>
         <mxCell id="KYajcFB9HV7KUk4DMyBB-33" value="Back Up server" style="image;html=1;image=img/lib/clip_art/computers/Server_128x128.png;" parent="1" vertex="1">
-          <mxGeometry x="174.75000000000045" y="262.89759036144596" width="96.66666666666666" height="83.85542168674698" as="geometry" />
+          <mxGeometry x="174.75000000000045" y="181.56759036144598" width="96.66666666666666" height="83.85542168674698" as="geometry" />
         </mxCell>
         <mxCell id="KYajcFB9HV7KUk4DMyBB-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="KYajcFB9HV7KUk4DMyBB-35" target="KYajcFB9HV7KUk4DMyBB-54" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -510,7 +516,7 @@
           <mxGeometry x="670.0866666666669" y="230.0031325301206" width="96.66666666666666" height="83.85542168674698" as="geometry" />
         </mxCell>
         <mxCell id="KYajcFB9HV7KUk4DMyBB-36" value="Data Base Server&lt;br&gt;169.254.0.15" style="image;html=1;image=img/lib/clip_art/computers/Server_Tower_128x128.png;" parent="1" vertex="1">
-          <mxGeometry x="174.75000000000045" y="387.6600000000001" width="96.67" height="75.06" as="geometry" />
+          <mxGeometry x="174.75000000000045" y="359.7700000000001" width="96.67" height="75.06" as="geometry" />
         </mxCell>
         <mxCell id="KYajcFB9HV7KUk4DMyBB-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.55;exitY=0.95;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="KYajcFB9HV7KUk4DMyBB-37" target="KYajcFB9HV7KUk4DMyBB-35" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -561,21 +567,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="KYajcFB9HV7KUk4DMyBB-57" value="File Access Logger File Version Tracker&lt;br&gt;Role Based Access Encrytptoin" style="image;html=1;image=img/lib/clip_art/networking/Firewall_02_128x128.png;" parent="1" vertex="1">
-          <mxGeometry x="215.59000000000032" y="569.9900000000002" width="96.66666666666666" height="83.85542168674698" as="geometry" />
-        </mxCell>
-        <mxCell id="KYajcFB9HV7KUk4DMyBB-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;" parent="1" source="KYajcFB9HV7KUk4DMyBB-60" target="KYajcFB9HV7KUk4DMyBB-33" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="483" y="570" />
-              <mxPoint x="376" y="570" />
-              <mxPoint x="376" y="305" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="yrjh7-1LUq3xMInoFqZh-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="KYajcFB9HV7KUk4DMyBB-36" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="480" y="570" as="sourcePoint" />
-          </mxGeometry>
+          <mxGeometry x="174.7500000000003" y="581.6800000000003" width="96.66666666666666" height="83.85542168674698" as="geometry" />
         </mxCell>
         <mxCell id="KYajcFB9HV7KUk4DMyBB-60" value="Forward Proxy&lt;br&gt;Role Based Access&lt;br&gt;Multi-Factor Authentication" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/web_server.svg;" parent="1" vertex="1">
           <mxGeometry x="480.25000000000045" y="535.9800000000001" width="50.33" height="62.91" as="geometry" />
@@ -599,19 +591,19 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="KYajcFB9HV7KUk4DMyBB-73" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://e7.pngegg.com/pngimages/899/221/png-clipart-splunk-vertical-logo-tech-companies-thumbnail.png;" parent="1" vertex="1">
-          <mxGeometry x="61.75000000000051" y="393.0300000000001" width="78" height="64.33" as="geometry" />
+          <mxGeometry x="61.75000000000051" y="372.1300000000001" width="78" height="64.33" as="geometry" />
         </mxCell>
         <mxCell id="yrjh7-1LUq3xMInoFqZh-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="KYajcFB9HV7KUk4DMyBB-74" target="KYajcFB9HV7KUk4DMyBB-33" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="KYajcFB9HV7KUk4DMyBB-74" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://images.g2crowd.com/uploads/product/image/large_detail/large_detail_61a947a153a77a6ab3cfbeea0c3ca5ef/thales-ciphertrust-data-security-platform.jpeg;" parent="1" vertex="1">
-          <mxGeometry x="61.75" y="280.67" width="50" height="50" as="geometry" />
+          <mxGeometry x="61.75" y="199.34000000000003" width="50" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="yrjh7-1LUq3xMInoFqZh-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="KYajcFB9HV7KUk4DMyBB-75" target="KYajcFB9HV7KUk4DMyBB-57" edge="1">
+        <mxCell id="fk0fO3fRBtCrh4mwYveA-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="KYajcFB9HV7KUk4DMyBB-75" target="KYajcFB9HV7KUk4DMyBB-57">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="KYajcFB9HV7KUk4DMyBB-75" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://strykesecurity.com/wp-content/uploads/2023/06/Proofpoint_1080x1080.png;" parent="1" vertex="1">
-          <mxGeometry x="150" y="522" width="55.92" height="55.92" as="geometry" />
+          <mxGeometry x="243" y="503.05" width="55.92" height="55.92" as="geometry" />
         </mxCell>
         <mxCell id="yrjh7-1LUq3xMInoFqZh-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="KYajcFB9HV7KUk4DMyBB-77" target="KYajcFB9HV7KUk4DMyBB-29" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -710,6 +702,10 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="480" y="550" as="sourcePoint" />
             <mxPoint x="530" y="500" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="610" y="567" />
+              <mxPoint x="610" y="636" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="yrjh7-1LUq3xMInoFqZh-32" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="KYajcFB9HV7KUk4DMyBB-60" target="KYajcFB9HV7KUk4DMyBB-69" edge="1">
@@ -745,12 +741,46 @@
         <mxCell id="KYajcFB9HV7KUk4DMyBB-29" value="CISCO IOS Switch" style="image;html=1;image=img/lib/clip_art/networking/Switch_128x128.png;" parent="1" vertex="1">
           <mxGeometry x="670.086666666667" y="594.126746987952" width="96.66666666666666" height="83.85542168674698" as="geometry" />
         </mxCell>
-        <mxCell id="fk0fO3fRBtCrh4mwYveA-3" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="KYajcFB9HV7KUk4DMyBB-57" target="KYajcFB9HV7KUk4DMyBB-60">
+        <mxCell id="fk0fO3fRBtCrh4mwYveA-4" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=5;strokeColor=#FF0F0F;" vertex="1" parent="1">
+          <mxGeometry x="38.41" y="140.00000000000003" width="241.59" height="154.6" as="geometry" />
+        </mxCell>
+        <mxCell id="fk0fO3fRBtCrh4mwYveA-5" value="Back Up Server VLAN" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="89.21000000000001" y="151.57" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fk0fO3fRBtCrh4mwYveA-8" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="fk0fO3fRBtCrh4mwYveA-7" target="KYajcFB9HV7KUk4DMyBB-60">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="670" y="520" as="sourcePoint" />
-            <mxPoint x="720" y="470" as="targetPoint" />
+            <mxPoint x="400" y="400" as="sourcePoint" />
+            <mxPoint x="450" y="350" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="380" y="570" />
+              <mxPoint x="370" y="397" />
+              <mxPoint x="370" y="567" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fk0fO3fRBtCrh4mwYveA-9" value="Data Base Server VLAN" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="84.20999999999998" y="329.77" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fk0fO3fRBtCrh4mwYveA-11" value="Source Code Repository VLAN" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-30" y="516.01" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fk0fO3fRBtCrh4mwYveA-13" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="KYajcFB9HV7KUk4DMyBB-60" target="fk0fO3fRBtCrh4mwYveA-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="470" y="540" as="sourcePoint" />
+            <mxPoint x="520" y="490" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="370" y="567" />
+              <mxPoint x="370" y="605" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fk0fO3fRBtCrh4mwYveA-15" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="fk0fO3fRBtCrh4mwYveA-4" target="KYajcFB9HV7KUk4DMyBB-60">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="470" as="sourcePoint" />
+            <mxPoint x="530" y="420" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="370" y="217" />
+              <mxPoint x="370" y="400" />
+              <mxPoint x="370" y="567" />
             </Array>
           </mxGeometry>
         </mxCell>
