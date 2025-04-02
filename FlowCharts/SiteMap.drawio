@@ -47,6 +47,18 @@
         <mxCell id="NMjz3zI6MwiwcyyuSsv5-9" value="contact.html" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="660" y="250" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="NMjz3zI6MwiwcyyuSsv5-11" value="About Me" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="250" y="290" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NMjz3zI6MwiwcyyuSsv5-12" value="Book A Session" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="395" y="290" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NMjz3zI6MwiwcyyuSsv5-13" value="Credentials" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="530" y="300" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NMjz3zI6MwiwcyyuSsv5-14" value="Contact &amp;amp; Social Medias" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="690" y="290" width="60" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
